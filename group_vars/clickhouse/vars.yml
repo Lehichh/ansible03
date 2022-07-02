@@ -1,0 +1,10 @@
+---
+clickhouse_version: "22.3.3.44"
+clickhouse_packages:
+  - clickhouse-client
+  - clickhouse-server
+  - clickhouse-common-static
+Clickhousepackages:
+  - /home/vagrant/clickhouse-common-static-22.3.3.44.deb
+  - /home/vagrant/clickhouse-client-22.3.3.44.deb
+  - /home/vagrant/clickhouse-server-22.3.3.44.deb

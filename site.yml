@@ -1,0 +1,8 @@
+---
+- name: Install Clickhouse
+  hosts: clickhouse
+  roles:
+    - nginxinc.nginx
+    - clickhouse
+    - vector-role
+    - lighthouse
